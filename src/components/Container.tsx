@@ -4,8 +4,8 @@ type ComponentProps = {
   children: ReactNode;
 };
 
-const Title = ({ children }: ComponentProps) => {
+const Container = ({ children }: ComponentProps) => {
   return <main>{children}</main>;
 };
 
-export default Title;
+export default Container;
