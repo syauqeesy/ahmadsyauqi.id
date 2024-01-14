@@ -6,12 +6,15 @@
 
 main {
   padding: 1rem;
-  text-align: center;
   font-family: Arial, Helvetica, sans-serif;
 }
 
+main h1 {
+  text-align: center;
+}
+
 @media (min-width: 768px) {
-  main {
+  main h1 {
     text-align: left;
   }
 }
