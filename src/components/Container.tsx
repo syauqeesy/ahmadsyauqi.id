@@ -1,11 +1,12 @@
 import { ReactNode } from "react";
 
-type ComponentProps = {
+type ContainerProps = {
   children: ReactNode;
+  className?: string;
 };
 
-const Container = ({ children }: ComponentProps) => {
-  return <main>{children}</main>;
+const Container = ({ children, className }: ContainerProps) => {
+  return <div className={`mx-3 md:mx-12 ${className}`}>{children}</div>;
 };
 
 export default Container;
