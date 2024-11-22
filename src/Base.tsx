@@ -1,5 +1,5 @@
 const Base = () => {
-  return <h1 className="text-2xl font-bold">Ahmad Syauqi</h1>;
+  return <h1 className="text-2xl font-bold">Test From Mac!</h1>;
 };
 
 export default Base;
